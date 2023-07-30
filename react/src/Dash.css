@@ -1,0 +1,77 @@
+.paddingall {
+  padding: 10px 10px 10px 10px;
+}
+
+.pricetitle {
+  font-weight: 600;
+}
+
+.pricesubtitle {
+  font-size: 14px;
+}
+
+.iconstyle {
+  margin-top: 20px;
+  margin-left: 20px;
+  color: antiquewhite;
+}
+
+#name{
+  font-weight: 600;
+}
+
+.iconstyleblack {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.gradient {
+  background: rgb(40, 34, 70);
+  background: linear-gradient(158deg, rgba(40, 34, 70, 1) 0%, rgba(30, 47, 141, 1) 100%);
+}
+
+.gradientlight {
+  background: rgb(53, 138, 148);
+  background: linear-gradient(158deg, rgba(53, 138, 148, 1) 0%, rgba(91, 180, 96, 1) 100%);
+}
+
+.bgcolor {
+  min-height: 100vh;
+  background: #eceff1;
+  background: linear-gradient(158deg, rgb(224, 224, 224) 0% rrgb(233, 237, 254)100%);
+}
+
+.AddButton{
+  margin-bottom: 1em !important;
+  margin-right: 1em !important;
+  float: left !important;
+}
+
+.DeleteButton{
+  margin-bottom: 1em !important;
+  float: right !important;
+  
+}
+
+
+.EditButton{
+  margin-bottom: 1em !important;
+   
+}
+
+/* table styling  */
+
+/* .contain-table {
+  overflow-x: auto;
+  width:  100vw ;
+} */
+
+@media (min-width: 600em) {
+  .contain-table {
+    width: 100%;
+  }
+}
+
+.striped-table tbody tr:nth-child(odd) {
+  background-color: #f8f8f8;
+}
